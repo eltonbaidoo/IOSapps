@@ -1,0 +1,1 @@
+I want an ios app that would transilate a docx file to pdf and to txt .

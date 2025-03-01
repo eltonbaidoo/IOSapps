@@ -1,0 +1,1633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46421B772D72A8A700B11083 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46421B762D72A8A600B11083 /* UniformTypeIdentifiers.framework */; };
+		46421B8F2D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 46421B852D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		46421B922D72A8A700B11083 /* TxtToDocCapabilityFileSharing.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 46421B742D72A8A600B11083 /* TxtToDocCapabilityFileSharing.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46421B202D729C0A00B11083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46421B002D729C0900B11083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46421B072D729C0900B11083;
+			remoteInfo = TxtToDoc;
+		};
+		46421B2A2D729C0A00B11083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46421B002D729C0900B11083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46421B072D729C0900B11083;
+			remoteInfo = TxtToDoc;
+		};
+		46421B552D72A7D100B11083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46421B002D729C0900B11083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46421B412D72A7CF00B11083;
+			remoteInfo = TxtToDocCapabilityDoc;
+		};
+		46421B5F2D72A7D100B11083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46421B002D729C0900B11083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46421B412D72A7CF00B11083;
+			remoteInfo = TxtToDocCapabilityDoc;
+		};
+		46421B8D2D72A8A700B11083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46421B002D729C0900B11083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46421B842D72A8A700B11083;
+			remoteInfo = TxtToDocCapabilityFileSharingUI;
+		};
+		46421B902D72A8A700B11083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46421B002D729C0900B11083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46421B732D72A8A600B11083;
+			remoteInfo = TxtToDocCapabilityFileSharing;
+		};
+		46421BED2D72AC4E00B11083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46421B002D729C0900B11083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46421BD92D72AC4C00B11083;
+			remoteInfo = TxtToDocCapabilityDocu;
+		};
+		46421BF72D72AC4E00B11083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46421B002D729C0900B11083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46421BD92D72AC4C00B11083;
+			remoteInfo = TxtToDocCapabilityDocu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46421B9B2D72A8A700B11083 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				46421B922D72A8A700B11083 /* TxtToDocCapabilityFileSharing.appex in Embed Foundation Extensions */,
+				46421B8F2D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46421B082D729C0900B11083 /* TxtToDoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TxtToDoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46421B1F2D729C0A00B11083 /* TxtToDocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxtToDocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46421B292D729C0A00B11083 /* TxtToDocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxtToDocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46421B422D72A7CF00B11083 /* TxtToDocCapabilityDoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TxtToDocCapabilityDoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46421B542D72A7D100B11083 /* TxtToDocCapabilityDocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxtToDocCapabilityDocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46421B5E2D72A7D100B11083 /* TxtToDocCapabilityDocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxtToDocCapabilityDocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46421B742D72A8A600B11083 /* TxtToDocCapabilityFileSharing.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TxtToDocCapabilityFileSharing.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		46421B762D72A8A600B11083 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		46421B852D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TxtToDocCapabilityFileSharingUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		46421BDA2D72AC4C00B11083 /* TxtToDocCapabilityDocu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TxtToDocCapabilityDocu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46421BEC2D72AC4E00B11083 /* TxtToDocCapabilityDocuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxtToDocCapabilityDocuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46421BF62D72AC4E00B11083 /* TxtToDocCapabilityDocuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxtToDocCapabilityDocuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		46421B312D729C0A00B11083 /* Exceptions for "TxtToDoc" folder in "TxtToDoc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 46421B072D729C0900B11083 /* TxtToDoc */;
+		};
+		46421B662D72A7D100B11083 /* Exceptions for "TxtToDocCapabilityDoc" folder in "TxtToDocCapabilityDoc" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 46421B412D72A7CF00B11083 /* TxtToDocCapabilityDoc */;
+		};
+		46421B962D72A8A700B11083 /* Exceptions for "TxtToDocCapabilityFileSharingUI" folder in "TxtToDocCapabilityFileSharingUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 46421B842D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI */;
+		};
+		46421B9A2D72A8A700B11083 /* Exceptions for "TxtToDocCapabilityFileSharing" folder in "TxtToDocCapabilityFileSharing" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 46421B732D72A8A600B11083 /* TxtToDocCapabilityFileSharing */;
+		};
+		46421C042D72AC4E00B11083 /* Exceptions for "TxtToDocCapabilityDocu" folder in "TxtToDocCapabilityDocu" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 46421BD92D72AC4C00B11083 /* TxtToDocCapabilityDocu */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		46421B0A2D729C0900B11083 /* TxtToDoc */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46421B312D729C0A00B11083 /* Exceptions for "TxtToDoc" folder in "TxtToDoc" target */,
+			);
+			path = TxtToDoc;
+			sourceTree = "<group>";
+		};
+		46421B222D729C0A00B11083 /* TxtToDocTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TxtToDocTests;
+			sourceTree = "<group>";
+		};
+		46421B2C2D729C0A00B11083 /* TxtToDocUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TxtToDocUITests;
+			sourceTree = "<group>";
+		};
+		46421B432D72A7CF00B11083 /* TxtToDocCapabilityDoc */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46421B662D72A7D100B11083 /* Exceptions for "TxtToDocCapabilityDoc" folder in "TxtToDocCapabilityDoc" target */,
+			);
+			path = TxtToDocCapabilityDoc;
+			sourceTree = "<group>";
+		};
+		46421B572D72A7D100B11083 /* TxtToDocCapabilityDocTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TxtToDocCapabilityDocTests;
+			sourceTree = "<group>";
+		};
+		46421B612D72A7D100B11083 /* TxtToDocCapabilityDocUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TxtToDocCapabilityDocUITests;
+			sourceTree = "<group>";
+		};
+		46421B782D72A8A700B11083 /* TxtToDocCapabilityFileSharing */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46421B9A2D72A8A700B11083 /* Exceptions for "TxtToDocCapabilityFileSharing" folder in "TxtToDocCapabilityFileSharing" target */,
+			);
+			path = TxtToDocCapabilityFileSharing;
+			sourceTree = "<group>";
+		};
+		46421B862D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46421B962D72A8A700B11083 /* Exceptions for "TxtToDocCapabilityFileSharingUI" folder in "TxtToDocCapabilityFileSharingUI" target */,
+			);
+			path = TxtToDocCapabilityFileSharingUI;
+			sourceTree = "<group>";
+		};
+		46421BDB2D72AC4C00B11083 /* TxtToDocCapabilityDocu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46421C042D72AC4E00B11083 /* Exceptions for "TxtToDocCapabilityDocu" folder in "TxtToDocCapabilityDocu" target */,
+			);
+			path = TxtToDocCapabilityDocu;
+			sourceTree = "<group>";
+		};
+		46421BEF2D72AC4E00B11083 /* TxtToDocCapabilityDocuTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TxtToDocCapabilityDocuTests;
+			sourceTree = "<group>";
+		};
+		46421BF92D72AC4E00B11083 /* TxtToDocCapabilityDocuUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TxtToDocCapabilityDocuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46421B052D729C0900B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B1C2D729C0A00B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B262D729C0A00B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B3F2D72A7CF00B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B512D72A7D100B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B5B2D72A7D100B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B712D72A8A600B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46421B772D72A8A700B11083 /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B822D72A8A700B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421BD72D72AC4C00B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421BE92D72AC4E00B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421BF32D72AC4E00B11083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46421AFF2D729C0900B11083 = {
+			isa = PBXGroup;
+			children = (
+				46421B0A2D729C0900B11083 /* TxtToDoc */,
+				46421B222D729C0A00B11083 /* TxtToDocTests */,
+				46421B2C2D729C0A00B11083 /* TxtToDocUITests */,
+				46421B432D72A7CF00B11083 /* TxtToDocCapabilityDoc */,
+				46421B572D72A7D100B11083 /* TxtToDocCapabilityDocTests */,
+				46421B612D72A7D100B11083 /* TxtToDocCapabilityDocUITests */,
+				46421B782D72A8A700B11083 /* TxtToDocCapabilityFileSharing */,
+				46421B862D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI */,
+				46421BDB2D72AC4C00B11083 /* TxtToDocCapabilityDocu */,
+				46421BEF2D72AC4E00B11083 /* TxtToDocCapabilityDocuTests */,
+				46421BF92D72AC4E00B11083 /* TxtToDocCapabilityDocuUITests */,
+				46421B752D72A8A600B11083 /* Frameworks */,
+				46421B092D729C0900B11083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46421B092D729C0900B11083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46421B082D729C0900B11083 /* TxtToDoc.app */,
+				46421B1F2D729C0A00B11083 /* TxtToDocTests.xctest */,
+				46421B292D729C0A00B11083 /* TxtToDocUITests.xctest */,
+				46421B422D72A7CF00B11083 /* TxtToDocCapabilityDoc.app */,
+				46421B542D72A7D100B11083 /* TxtToDocCapabilityDocTests.xctest */,
+				46421B5E2D72A7D100B11083 /* TxtToDocCapabilityDocUITests.xctest */,
+				46421B742D72A8A600B11083 /* TxtToDocCapabilityFileSharing.appex */,
+				46421B852D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI.appex */,
+				46421BDA2D72AC4C00B11083 /* TxtToDocCapabilityDocu.app */,
+				46421BEC2D72AC4E00B11083 /* TxtToDocCapabilityDocuTests.xctest */,
+				46421BF62D72AC4E00B11083 /* TxtToDocCapabilityDocuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46421B752D72A8A600B11083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46421B762D72A8A600B11083 /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46421B072D729C0900B11083 /* TxtToDoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421B322D729C0A00B11083 /* Build configuration list for PBXNativeTarget "TxtToDoc" */;
+			buildPhases = (
+				46421B042D729C0900B11083 /* Sources */,
+				46421B052D729C0900B11083 /* Frameworks */,
+				46421B062D729C0900B11083 /* Resources */,
+				46421B9B2D72A8A700B11083 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46421B8E2D72A8A700B11083 /* PBXTargetDependency */,
+				46421B912D72A8A700B11083 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46421B0A2D729C0900B11083 /* TxtToDoc */,
+			);
+			name = TxtToDoc;
+			packageProductDependencies = (
+			);
+			productName = TxtToDoc;
+			productReference = 46421B082D729C0900B11083 /* TxtToDoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46421B1E2D729C0A00B11083 /* TxtToDocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421B372D729C0A00B11083 /* Build configuration list for PBXNativeTarget "TxtToDocTests" */;
+			buildPhases = (
+				46421B1B2D729C0A00B11083 /* Sources */,
+				46421B1C2D729C0A00B11083 /* Frameworks */,
+				46421B1D2D729C0A00B11083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46421B212D729C0A00B11083 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46421B222D729C0A00B11083 /* TxtToDocTests */,
+			);
+			name = TxtToDocTests;
+			packageProductDependencies = (
+			);
+			productName = TxtToDocTests;
+			productReference = 46421B1F2D729C0A00B11083 /* TxtToDocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46421B282D729C0A00B11083 /* TxtToDocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421B3A2D729C0A00B11083 /* Build configuration list for PBXNativeTarget "TxtToDocUITests" */;
+			buildPhases = (
+				46421B252D729C0A00B11083 /* Sources */,
+				46421B262D729C0A00B11083 /* Frameworks */,
+				46421B272D729C0A00B11083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46421B2B2D729C0A00B11083 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46421B2C2D729C0A00B11083 /* TxtToDocUITests */,
+			);
+			name = TxtToDocUITests;
+			packageProductDependencies = (
+			);
+			productName = TxtToDocUITests;
+			productReference = 46421B292D729C0A00B11083 /* TxtToDocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		46421B412D72A7CF00B11083 /* TxtToDocCapabilityDoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421B672D72A7D100B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDoc" */;
+			buildPhases = (
+				46421B3E2D72A7CF00B11083 /* Sources */,
+				46421B3F2D72A7CF00B11083 /* Frameworks */,
+				46421B402D72A7CF00B11083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46421B432D72A7CF00B11083 /* TxtToDocCapabilityDoc */,
+			);
+			name = TxtToDocCapabilityDoc;
+			packageProductDependencies = (
+			);
+			productName = TxtToDocCapabilityDoc;
+			productReference = 46421B422D72A7CF00B11083 /* TxtToDocCapabilityDoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46421B532D72A7D100B11083 /* TxtToDocCapabilityDocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421B6A2D72A7D100B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDocTests" */;
+			buildPhases = (
+				46421B502D72A7D100B11083 /* Sources */,
+				46421B512D72A7D100B11083 /* Frameworks */,
+				46421B522D72A7D100B11083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46421B562D72A7D100B11083 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46421B572D72A7D100B11083 /* TxtToDocCapabilityDocTests */,
+			);
+			name = TxtToDocCapabilityDocTests;
+			packageProductDependencies = (
+			);
+			productName = TxtToDocCapabilityDocTests;
+			productReference = 46421B542D72A7D100B11083 /* TxtToDocCapabilityDocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46421B5D2D72A7D100B11083 /* TxtToDocCapabilityDocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421B6D2D72A7D100B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDocUITests" */;
+			buildPhases = (
+				46421B5A2D72A7D100B11083 /* Sources */,
+				46421B5B2D72A7D100B11083 /* Frameworks */,
+				46421B5C2D72A7D100B11083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46421B602D72A7D100B11083 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46421B612D72A7D100B11083 /* TxtToDocCapabilityDocUITests */,
+			);
+			name = TxtToDocCapabilityDocUITests;
+			packageProductDependencies = (
+			);
+			productName = TxtToDocCapabilityDocUITests;
+			productReference = 46421B5E2D72A7D100B11083 /* TxtToDocCapabilityDocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		46421B732D72A8A600B11083 /* TxtToDocCapabilityFileSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421B972D72A8A700B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityFileSharing" */;
+			buildPhases = (
+				46421B702D72A8A600B11083 /* Sources */,
+				46421B712D72A8A600B11083 /* Frameworks */,
+				46421B722D72A8A600B11083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46421B782D72A8A700B11083 /* TxtToDocCapabilityFileSharing */,
+			);
+			name = TxtToDocCapabilityFileSharing;
+			packageProductDependencies = (
+			);
+			productName = TxtToDocCapabilityFileSharing;
+			productReference = 46421B742D72A8A600B11083 /* TxtToDocCapabilityFileSharing.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		46421B842D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421B932D72A8A700B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityFileSharingUI" */;
+			buildPhases = (
+				46421B812D72A8A700B11083 /* Sources */,
+				46421B822D72A8A700B11083 /* Frameworks */,
+				46421B832D72A8A700B11083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46421B862D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI */,
+			);
+			name = TxtToDocCapabilityFileSharingUI;
+			packageProductDependencies = (
+			);
+			productName = TxtToDocCapabilityFileSharingUI;
+			productReference = 46421B852D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		46421BD92D72AC4C00B11083 /* TxtToDocCapabilityDocu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421C052D72AC4E00B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDocu" */;
+			buildPhases = (
+				46421BD62D72AC4C00B11083 /* Sources */,
+				46421BD72D72AC4C00B11083 /* Frameworks */,
+				46421BD82D72AC4C00B11083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46421BDB2D72AC4C00B11083 /* TxtToDocCapabilityDocu */,
+			);
+			name = TxtToDocCapabilityDocu;
+			packageProductDependencies = (
+			);
+			productName = TxtToDocCapabilityDocu;
+			productReference = 46421BDA2D72AC4C00B11083 /* TxtToDocCapabilityDocu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46421BEB2D72AC4E00B11083 /* TxtToDocCapabilityDocuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421C062D72AC4E00B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDocuTests" */;
+			buildPhases = (
+				46421BE82D72AC4E00B11083 /* Sources */,
+				46421BE92D72AC4E00B11083 /* Frameworks */,
+				46421BEA2D72AC4E00B11083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46421BEE2D72AC4E00B11083 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46421BEF2D72AC4E00B11083 /* TxtToDocCapabilityDocuTests */,
+			);
+			name = TxtToDocCapabilityDocuTests;
+			packageProductDependencies = (
+			);
+			productName = TxtToDocCapabilityDocuTests;
+			productReference = 46421BEC2D72AC4E00B11083 /* TxtToDocCapabilityDocuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46421BF52D72AC4E00B11083 /* TxtToDocCapabilityDocuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46421C072D72AC4E00B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDocuUITests" */;
+			buildPhases = (
+				46421BF22D72AC4E00B11083 /* Sources */,
+				46421BF32D72AC4E00B11083 /* Frameworks */,
+				46421BF42D72AC4E00B11083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46421BF82D72AC4E00B11083 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46421BF92D72AC4E00B11083 /* TxtToDocCapabilityDocuUITests */,
+			);
+			name = TxtToDocCapabilityDocuUITests;
+			packageProductDependencies = (
+			);
+			productName = TxtToDocCapabilityDocuUITests;
+			productReference = 46421BF62D72AC4E00B11083 /* TxtToDocCapabilityDocuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46421B002D729C0900B11083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					46421B072D729C0900B11083 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					46421B1E2D729C0A00B11083 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 46421B072D729C0900B11083;
+					};
+					46421B282D729C0A00B11083 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 46421B072D729C0900B11083;
+					};
+					46421B412D72A7CF00B11083 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					46421B532D72A7D100B11083 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 46421B412D72A7CF00B11083;
+					};
+					46421B5D2D72A7D100B11083 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 46421B412D72A7CF00B11083;
+					};
+					46421B732D72A8A600B11083 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					46421B842D72A8A700B11083 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					46421BD92D72AC4C00B11083 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					46421BEB2D72AC4E00B11083 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 46421BD92D72AC4C00B11083;
+					};
+					46421BF52D72AC4E00B11083 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 46421BD92D72AC4C00B11083;
+					};
+				};
+			};
+			buildConfigurationList = 46421B032D729C0900B11083 /* Build configuration list for PBXProject "TxtToDoc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46421AFF2D729C0900B11083;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				46421B3D2D729CAC00B11083 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 46421B092D729C0900B11083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46421B072D729C0900B11083 /* TxtToDoc */,
+				46421B1E2D729C0A00B11083 /* TxtToDocTests */,
+				46421B282D729C0A00B11083 /* TxtToDocUITests */,
+				46421B412D72A7CF00B11083 /* TxtToDocCapabilityDoc */,
+				46421B532D72A7D100B11083 /* TxtToDocCapabilityDocTests */,
+				46421B5D2D72A7D100B11083 /* TxtToDocCapabilityDocUITests */,
+				46421B732D72A8A600B11083 /* TxtToDocCapabilityFileSharing */,
+				46421B842D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI */,
+				46421BD92D72AC4C00B11083 /* TxtToDocCapabilityDocu */,
+				46421BEB2D72AC4E00B11083 /* TxtToDocCapabilityDocuTests */,
+				46421BF52D72AC4E00B11083 /* TxtToDocCapabilityDocuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46421B062D729C0900B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B1D2D729C0A00B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B272D729C0A00B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B402D72A7CF00B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B522D72A7D100B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B5C2D72A7D100B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B722D72A8A600B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B832D72A8A700B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421BD82D72AC4C00B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421BEA2D72AC4E00B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421BF42D72AC4E00B11083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46421B042D729C0900B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B1B2D729C0A00B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B252D729C0A00B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B3E2D72A7CF00B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B502D72A7D100B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B5A2D72A7D100B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B702D72A8A600B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421B812D72A8A700B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421BD62D72AC4C00B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421BE82D72AC4E00B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46421BF22D72AC4E00B11083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46421B212D729C0A00B11083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46421B072D729C0900B11083 /* TxtToDoc */;
+			targetProxy = 46421B202D729C0A00B11083 /* PBXContainerItemProxy */;
+		};
+		46421B2B2D729C0A00B11083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46421B072D729C0900B11083 /* TxtToDoc */;
+			targetProxy = 46421B2A2D729C0A00B11083 /* PBXContainerItemProxy */;
+		};
+		46421B562D72A7D100B11083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46421B412D72A7CF00B11083 /* TxtToDocCapabilityDoc */;
+			targetProxy = 46421B552D72A7D100B11083 /* PBXContainerItemProxy */;
+		};
+		46421B602D72A7D100B11083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46421B412D72A7CF00B11083 /* TxtToDocCapabilityDoc */;
+			targetProxy = 46421B5F2D72A7D100B11083 /* PBXContainerItemProxy */;
+		};
+		46421B8E2D72A8A700B11083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46421B842D72A8A700B11083 /* TxtToDocCapabilityFileSharingUI */;
+			targetProxy = 46421B8D2D72A8A700B11083 /* PBXContainerItemProxy */;
+		};
+		46421B912D72A8A700B11083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46421B732D72A8A600B11083 /* TxtToDocCapabilityFileSharing */;
+			targetProxy = 46421B902D72A8A700B11083 /* PBXContainerItemProxy */;
+		};
+		46421BEE2D72AC4E00B11083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46421BD92D72AC4C00B11083 /* TxtToDocCapabilityDocu */;
+			targetProxy = 46421BED2D72AC4E00B11083 /* PBXContainerItemProxy */;
+		};
+		46421BF82D72AC4E00B11083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46421BD92D72AC4C00B11083 /* TxtToDocCapabilityDocu */;
+			targetProxy = 46421BF72D72AC4E00B11083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46421B332D729C0A00B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TxtToDoc/TxtToDoc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TxtToDoc/Preview Content\"";
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TxtToDoc/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46421B342D729C0A00B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TxtToDoc/TxtToDoc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TxtToDoc/Preview Content\"";
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TxtToDoc/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46421B352D729C0A00B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46421B362D729C0A00B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46421B382D729C0A00B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TxtToDoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TxtToDoc";
+			};
+			name = Debug;
+		};
+		46421B392D729C0A00B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TxtToDoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TxtToDoc";
+			};
+			name = Release;
+		};
+		46421B3B2D729C0A00B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TxtToDoc;
+			};
+			name = Debug;
+		};
+		46421B3C2D729C0A00B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TxtToDoc;
+			};
+			name = Release;
+		};
+		46421B682D72A7D100B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TxtToDocCapabilityDoc/Preview Content\"";
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TxtToDocCapabilityDoc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDocCapabilityDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46421B692D72A7D100B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TxtToDocCapabilityDoc/Preview Content\"";
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TxtToDocCapabilityDoc/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDocCapabilityDoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46421B6B2D72A7D100B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDocCapabilityDocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TxtToDocCapabilityDoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TxtToDocCapabilityDoc";
+			};
+			name = Debug;
+		};
+		46421B6C2D72A7D100B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDocCapabilityDocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TxtToDocCapabilityDoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TxtToDocCapabilityDoc";
+			};
+			name = Release;
+		};
+		46421B6E2D72A7D100B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDocCapabilityDocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TxtToDocCapabilityDoc;
+			};
+			name = Debug;
+		};
+		46421B6F2D72A7D100B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDocCapabilityDocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TxtToDocCapabilityDoc;
+			};
+			name = Release;
+		};
+		46421B942D72A8A700B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TxtToDocCapabilityFileSharingUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TxtToDocCapabilityFileSharingUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc.TxtToDocCapabilityFileSharingUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46421B952D72A8A700B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TxtToDocCapabilityFileSharingUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TxtToDocCapabilityFileSharingUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc.TxtToDocCapabilityFileSharingUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46421B982D72A8A700B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TxtToDocCapabilityFileSharing/TxtToDocCapabilityFileSharing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TxtToDocCapabilityFileSharing/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TxtToDocCapabilityFileSharing;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc.TxtToDocCapabilityFileSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46421B992D72A8A700B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TxtToDocCapabilityFileSharing/TxtToDocCapabilityFileSharing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TxtToDocCapabilityFileSharing/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TxtToDocCapabilityFileSharing;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc.TxtToDocCapabilityFileSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46421BFE2D72AC4E00B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TxtToDocCapabilityDocu/Preview Content\"";
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TxtToDocCapabilityDocu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc.TxtToDocCapabilityDocu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46421BFF2D72AC4E00B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TxtToDocCapabilityDocu/Preview Content\"";
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TxtToDocCapabilityDocu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc.TxtToDocCapabilityDocu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46421C002D72AC4E00B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc.TxtToDocCapabilityDocuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TxtToDocCapabilityDocu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TxtToDocCapabilityDocu";
+			};
+			name = Debug;
+		};
+		46421C012D72AC4E00B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc.TxtToDocCapabilityDocuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TxtToDocCapabilityDocu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TxtToDocCapabilityDocu";
+			};
+			name = Release;
+		};
+		46421C022D72AC4E00B11083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc.TxtToDocCapabilityDocuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TxtToDocCapabilityDocu;
+			};
+			name = Debug;
+		};
+		46421C032D72AC4E00B11083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7Q7M9YQY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltonbaidoo.TxtToDoc.TxtToDocCapabilityDocuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TxtToDocCapabilityDocu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46421B032D729C0900B11083 /* Build configuration list for PBXProject "TxtToDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421B352D729C0A00B11083 /* Debug */,
+				46421B362D729C0A00B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421B322D729C0A00B11083 /* Build configuration list for PBXNativeTarget "TxtToDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421B332D729C0A00B11083 /* Debug */,
+				46421B342D729C0A00B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421B372D729C0A00B11083 /* Build configuration list for PBXNativeTarget "TxtToDocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421B382D729C0A00B11083 /* Debug */,
+				46421B392D729C0A00B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421B3A2D729C0A00B11083 /* Build configuration list for PBXNativeTarget "TxtToDocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421B3B2D729C0A00B11083 /* Debug */,
+				46421B3C2D729C0A00B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421B672D72A7D100B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421B682D72A7D100B11083 /* Debug */,
+				46421B692D72A7D100B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421B6A2D72A7D100B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421B6B2D72A7D100B11083 /* Debug */,
+				46421B6C2D72A7D100B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421B6D2D72A7D100B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421B6E2D72A7D100B11083 /* Debug */,
+				46421B6F2D72A7D100B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421B932D72A8A700B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityFileSharingUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421B942D72A8A700B11083 /* Debug */,
+				46421B952D72A8A700B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421B972D72A8A700B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityFileSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421B982D72A8A700B11083 /* Debug */,
+				46421B992D72A8A700B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421C052D72AC4E00B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDocu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421BFE2D72AC4E00B11083 /* Debug */,
+				46421BFF2D72AC4E00B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421C062D72AC4E00B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDocuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421C002D72AC4E00B11083 /* Debug */,
+				46421C012D72AC4E00B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46421C072D72AC4E00B11083 /* Build configuration list for PBXNativeTarget "TxtToDocCapabilityDocuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46421C022D72AC4E00B11083 /* Debug */,
+				46421C032D72AC4E00B11083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		46421B3D2D729CAC00B11083 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 46421B002D729C0900B11083 /* Project object */;
+}
